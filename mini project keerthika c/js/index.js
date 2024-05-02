@@ -41,3 +41,15 @@ document.addEventListener('DOMContentLoaded', function() {
     alert('Preferences saved!');
   });
 });
+
+// hero page button
+
+const ctaBtn = document.querySelector('.cta-btn');
+
+ctaBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  const targetSection = document.querySelector('#target-section');
+  targetSection.scrollIntoView({
+    behavior: 'smooth'
+  });
+});

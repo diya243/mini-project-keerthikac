@@ -9,7 +9,7 @@ class App extends React.Component {
           <h1>Welcome to My React Website</h1>
           <nav>
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -23,11 +23,11 @@ class App extends React.Component {
           <section>
             <h2>Contact Us</h2>
             <p>Email: contact@example.com</p>
-            <p>Phone: 123-456-7890</p>
+            <p>Phone: +91 93993940000</p>
           </section>
         </main>
         <footer>
-          <p>&copy; 2024 My React Website. All rights reserved.</p>
+          <p>&copy; EPLATE PVT LTD. All rights reserved.</p>
         </footer>
       </div>
     );
